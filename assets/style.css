@@ -1,0 +1,10 @@
+:root {
+    --tawny-orange: #fcb678; 
+}
+
+/* body {
+background-color: var(--tawny-orange);
+} */
+section {
+    padding: 55px 0;
+}
