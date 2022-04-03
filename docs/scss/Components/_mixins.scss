@@ -1,0 +1,29 @@
+// mix in gradients 
+@use '../custom' as *; 
+@mixin gradient {
+    background: linear-gradient(to right, rgba($primary, 0.85), rgba($secondary, 0.95)); 
+}
+
+@mixin gradient-2 {
+    background: linear-gradient(to left, rgba($teal, 0.85), rgba($secondary, 0.95))
+}
+
+@mixin absoluteCustom {
+    position: absolute;
+    top: 45.80%;
+    left: 39.35%;
+    transform: translate(-40%, -40%);
+}
+
+@mixin absoluteCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@mixin animation {
+    position: absolute;
+    top: 34%;
+    left: 27%;
+    transform: translate(-40%, -40%);
+}

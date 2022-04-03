@@ -1,0 +1,26 @@
+@use '../_custom' as *; 
+@use '../Components/_mixins' as *;
+
+
+
+.portfolio {
+    @include gradient-2;
+    padding: 10rem 0 0 0;
+    width: 100%;
+    height: 100%;
+
+    img:hover {
+        background-color: $gray-500;
+        opacity: 0.75; 
+    }
+    
+}
+
+.kipchoge-github {
+        position: absolute; 
+        width: 2.5rem;
+        height: 2.5rem; 
+        height: 50%;
+        width: 50%;
+        left: 515px; 
+}
