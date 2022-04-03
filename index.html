@@ -2,49 +2,151 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio-Dawson N.</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./assets/style.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio-Dawson Nichols</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/glightbox/glightbox.min.js">
 </head>
 
 <body>
-    <!-- navbar -->
-    <!-- Main image and intro text -->
-        <section id="intro">
-            <div class="col-1">
-            <a href="./Portfolio.html" class="btn btn-secondary m-2 btn-lg" class="col">Portfolio</a>
-            <a href="./Resume.html" class="btn btn-secondary m-2 btn-lg" class="col">Resume</a>
-            <a href="./Bio.html" class="btn btn-secondary m-2 btn-lg" class="col">Bio</a>
-            </div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-5 text-center text-md-start">
-                        <h1>Welcome to a Portfolio site by Dawson Nichols</h1>
-                        <p class="lead my-4 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top d-flex">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <img src="./assets/images/logo.png" alt="logo image">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#bio">Bio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/dawson-nichols-b77676224/">linkedin</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Portfolio
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#run-buddy">Run Buddy</a></li>
+              <li><a class="dropdown-item" href="#code-refactor">Code Refactor</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Project 3</a></li>
+            </ul>
+          </li>
+        </ul>
+        <button href="#contact-bottom-form" type="button" class="rounded-pill btn-rounded">+1 9168656322
+          <span>
+            <i class="fas fa-phone"></i>
+          </span>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <!-- Intro  -->
+  <section id="home" class="intro-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 intros">
+          <h1 class="display-2"></h1>
+          <span class="display-2--intro">Welcome to the site!</span>
+          <span class="display-2--descriptions lh-md">This website contains materials representing the development work
+            of me, Dawson Nichols</span>
+            
+          <button type="button" class="rounded-pill btn-rounded"><div href="#contact-bottom-form">Send me an email</div>
+            <span>
+              <i class="fas fa-envelope-square"></i>
+            </span>
+            
+          </button>
+          
+        </div>
+        <!-- video -->
+        <div class="col-md-6 intros lead-text-end">
+          <div class="video-box">
+            <img src="assets/images/Music_Outline.png" alt="link to video" class="img-fluid">
+            <a href="https://www.youtube.com/watch?v=OVekFL5mTYA" class="glightbox">
+              <i class="fas fa-play-circle"></i>
+              <span class="button-animation border--border-1"></span>
+              <span class="button-animation border--border-2"></span>
+            </a>
+          </div>
+        </div>
+  </section>
 
 
+  <section id="portfolio" class=portfolio>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <!-- <a class="kipchoge-github" href="https://github.com/dawsonnichols/run-buddy"> <i class="fab fa-github"></i></a> -->
+          <a href="https://dawsonnichols.github.io/run-buddy/">
+            <img id="run-buddy" src="assets/images/kipchoge.jpeg" class="img-fluid rounded mx-auto d-block"
+              alt="Kipchoge, a runner">
+          </a>
+        </div>
+      <div class="row">
+        <div class="col-6">
+          <a href="https://dawsonnichols.github.io/Code-Refactor/">
+            <img id="code-refactor" src="assets/images/woman.webp" class="img-fluid rounded mx-auto d-block"
+              alt="A woman typing at a computer">
+          </a>
+          <!-- <a href="https://github.com/dawsonnichols/Code-Refactor"> <i class="fab fa-github"></i></a> -->
+        </div>
+        <div class="col-6">
+          <img src="assets/images/motherboard.webp" class="img-fluid rounded mx-auto d-block pt-5 "
+            alt="computer motherboard">
+          <!-- <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0"> <i class="fab fa-github"></i></a> -->
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section id="bio" class="bio">
+    <div class="container">
+      <div class="row">
+        <div class col-12>
+            <h2 display-2--intro>BIO</h2>
+            <p class="display-2--descriptions lh-md"> 21 year old aspiring to work in the software and web development field. Enjoys music, learning about cryptocurrency, and now, coding.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <footer id="contact" class="contact-bottom">
+    <div class="container">
+      <h3 display-2--intro>Contact</h3>
+      <p class="display-2--descriptions lh-md"> Do you have questions or concerns?
+        <br />
+        Let me know. 
+      </p>
+      <address id="contact-bottom-form">
+        P: 916.865-6322
+        E: <a href="mailto:dawsontnichols@gmail.com">dawsontnichols@gmail.com</a>
+      </address>
+    </div>
+  </footer> 
+      
 
-
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script> 
 </body>
 
 </html>

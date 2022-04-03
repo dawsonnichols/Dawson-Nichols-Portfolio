@@ -1,0 +1,16 @@
+@use '../_custom' as *; 
+@use '../Components/_mixins' as *;
+
+@keyframes pulse-border {
+    @include animation; 
+
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.5); 
+        opacity: 0;
+    }
+}
