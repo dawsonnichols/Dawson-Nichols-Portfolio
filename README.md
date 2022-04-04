@@ -12,6 +12,5 @@ This portfolio was made using Bootsrap 5 CSS framework and FontAwesome themes.
 FontAwesome provided the icons used for the phone and email buttons, and the play button in the center of the record player image at the top right. 
 
 Screenshot: 
-https://user-images.githubusercontent.com/85593807/161476538-0b66c2d7-4d96-416d-bc69-66f48a5e10b7.png
-
+![Screen Shot 2022-04-03 at 9 50 53 PM](https://user-images.githubusercontent.com/85593807/161476538-0b66c2d7-4d96-416d-bc69-66f48a5e10b7.png)
 
